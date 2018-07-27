@@ -93,7 +93,7 @@ FROM busybox:$VERSION
 
 RUN có 2 dạng:
 
-- ```RUN <command>``` ( dạng <i>shell<i>, command được chạy trong shell, mặc định của Linux là ```/bin/sh -c``` hoặc ```cmd /S /C``` trong Windows).
+- ```RUN <command>``` ( dạng <i>shell</i>, command được chạy trong shell, mặc định của Linux là ```/bin/sh -c``` hoặc ```cmd /S /C``` trong Windows).
 
 - ```RUN ["executable", "param1", "param2"]```(dạng <i>exec</i>).
 
