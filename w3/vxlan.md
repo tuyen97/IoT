@@ -11,7 +11,7 @@ VXLAN là 1 mạng overlay (Layer 2 over layer3), gói tin tầng 2 được l�
 
 ### Khuôn dạng gói tin
 
-![](./img/vxlan-packet.jpg)
+![](../img/vxlan-packet.jpg)
 
 VXLAN header được gắn với L2 frame ban đầu và đóng gói vào trong payload của UDP.
 
@@ -21,7 +21,7 @@ Phần VXLAN header bao gồm 8 byte trong đó có 24 bit VNID đánh dấu tê
 
 VTEP là thiết bị quan trọng trong mạng VXLAN. Là cầu nối giữa các thiết bị trong mạng VXLAN với mạng IP bên ngoài. Có chức năng dóng gói - mở gói tin VXLAN và chuyển lại gói tin cho các thiết bị trong mạng. Cung cấp tính trong suốt cho mạng VXLAN.
 
-![](./img/vtep.jpg)
+![](../img/vtep.jpg)
 
 VTEP có thể là thiết bị vật lí hoặc ảo hóa. Mỗi VTEP có 2 interface: 1 interface đóng vai trò là switch giữa các thiết bị đầu cuối trong mạng VXLAN, 1 IP interface kết nối với phần mạng IP giao vận.
 
@@ -30,7 +30,7 @@ trong UDP và truyền gói tin này tới VTEP khác thông qua mạng IP. VTEP
 
 ### Giao tiếp Unicast trong VXLAN
  
-![](./img/vxlan-unicast.jpg)
+![](../img/vxlan-unicast.jpg)
 
 Host-A và Host-B nằm chung 1 trong mạng VNID = 10 giao tiếp với nhau. Cho rằng việc học địa chỉ là đã được hoàn tất từ trước.
 
@@ -48,7 +48,7 @@ A và B phải nằm trong cùng VXLAN mới giao tiếp được. Các VM nằm
  
 ### Broadcast trong VXLAN
 
-![](./img/vxlan-broadcast.jpg)
+![](../img/vxlan-broadcast.jpg)
 
 1. Ở đây, do A chỉ biết IP của B mà chưa biết MAC của B nên nó tạo ra 1 ARP request ra toàn mạng(như mạng LAN thông thường).
 
