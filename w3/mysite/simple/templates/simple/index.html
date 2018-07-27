@@ -1,0 +1,8 @@
+{% load static %}
+<h3>Welcome</h3>
+<form method="post" action="/simple/result">
+	 {%csrf_token%}
+          Nhập tên của bạn:<br>
+	  <input type="text" name="ten"/><br>
+	  <input type="submit" value="Submit">
+</form>

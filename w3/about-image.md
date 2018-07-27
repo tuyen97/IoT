@@ -6,7 +6,7 @@ Ta có thể tự tạo image hoặc sử dụng image có sẵn trêm registry.
 
 Trong Dockerfile có các lệnh, mỗi lệnh tạo ra 1 layer mới trên image gốc. Các layer xếp chồng lên nhau.
 
-![](./img/image-layer.jpg)
+![](../img/image-layer.jpg)
 
 Vậy image bản chất là gì?.
 
