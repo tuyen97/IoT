@@ -11,7 +11,7 @@ VXLAN là 1 mạng overlay (Layer 2 over layer3), gói tin tầng 2 được l�
 
 ### Khuôn dạng gói tin
 
-![](./img/vxlan-packet.jpg)
+![](../img/vxlan-packet.jpg)
 
 VXLAN header được gắn với L2 frame ban đầu và đóng gói vào trong payload của UDP.
 
