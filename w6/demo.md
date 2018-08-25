@@ -55,6 +55,24 @@ Thông điệp galileo gửi lên server:
 
 - status = 3: galileo mất kết nối
 
+### Cơ sở dữ liệu
+
+3 bảng :
+
+![](../img/mea.png)
+
+bảng esp: thông tin về esp
+
+![](../img/esp.png)
+
+bảng galileo: thông tin về galileo:
+
+![](../img/demo-galileo.png)
+
+bảng esp_data: dữ liệu về nhiệt độ, độ ẩm
+
+![](../img/demo-esp_data)
+
 ### Đồ thị 
 
 ![](../demo.png)
