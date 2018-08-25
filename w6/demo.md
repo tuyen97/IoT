@@ -57,6 +57,6 @@ Thông điệp galileo gửi lên server:
 
 ### Đồ thị 
 
-![](../demo.png)
+![](../img/demo.png)
 
 
