@@ -63,7 +63,7 @@ Thông điệp galileo gửi lên server:
 
 bảng esp: thông tin về esp
 
-![](../img/esp.png)
+![](../img/demo-esp.png)
 
 bảng galileo: thông tin về galileo:
 
@@ -71,7 +71,7 @@ bảng galileo: thông tin về galileo:
 
 bảng esp_data: dữ liệu về nhiệt độ, độ ẩm
 
-![](../img/demo-esp_data)
+![](../img/demo-esp_data.png)
 
 ### Đồ thị 
 
