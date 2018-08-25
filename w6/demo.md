@@ -75,6 +75,6 @@ bảng esp_data: dữ liệu về nhiệt độ, độ ẩm
 
 ### Đồ thị 
 
-![](../demo.png)
+![](../img/demo.png)
 
 
