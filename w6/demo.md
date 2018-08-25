@@ -61,7 +61,7 @@ Thông điệp galileo gửi lên server:
 
 ![](../img/mea.png)
 
-bảng esp: thông tin về esp: status gồm có: worked là đang gửi dữ liệu thông thường, galileo_out là trường hợp galileo mất kết nối, online là mở kết nối mới, offline là m
+bảng esp: thông tin về esp: status gồm có: worked là đang gửi dữ liệu thông thường, galileo_out là trường hợp galileo mất kết nối, online là mở kết nối mới, offline là mất kết nối
 
 ![](../img/demo-esp.png)
 
