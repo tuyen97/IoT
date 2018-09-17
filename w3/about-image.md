@@ -2,7 +2,7 @@
 
 Là 1 file chứa các thông tin để tạo ra container. Các image được xây dựng bằng cách kế thừa nhau, 1 image này được xây dựng trên 1 image kia.
 
-Ta có thể tự tạo image hoặc sử dụng image có sẵn trêm registry. Để tạo image cần có Dockerfile và các file khác cần thiết.
+Ta có thể tự tạo image hoặc sử dụng image có sẵn trêm registry. Để tạo image cần có Dockerfile và các file khác cần thiết:mã nguồn ứng dụng, các file cấu hình...
 
 Trong Dockerfile có các lệnh, mỗi lệnh tạo ra 1 layer mới trên image gốc. Các layer xếp chồng lên nhau.
 
